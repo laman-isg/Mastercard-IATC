@@ -1,0 +1,56 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card {
+    margin-top: 30px;
+    width: 380px;
+    height: 250px;
+    background-color: rgb(228, 218, 218);
+    position: relative;
+    border-radius: 15px;
+    border: 1px solid gray;
+    float: left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 4px 4px black;
+}
+
+.left_side, .right_side {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.left_side {
+    background-color: rgba(236, 0, 10);
+    position: absolute;
+    left: 75px;
+    float: left;
+}
+
+.right_side {
+    background-color:rgb(247, 158, 0);
+    opacity: 0.9;
+    position: absolute;
+    right: 75px;
+    float: left;
+}
+
+p.card_text {
+    position: absolute;
+    color: black;
+    font-size: 35px;
+    z-index: 1000;
+    bottom: 5px;
+    text-align: center;
+}
